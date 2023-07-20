@@ -40,9 +40,9 @@ defmodule NervesTier.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:elixir_make, "~> 0.4", runtime: false},
-      {:httpoison, "~> 1.5", optional: true},
-      {:poison, "~> 3.1", optional: true},
+      {:elixir_make, "~> 0.7", runtime: false},
+      {:httpoison, "~> 2.1", optional: true},
+      {:poison, "~> 5.0", optional: true},
       {:ex_doc, ">= 0.0.0", only: :dev},
 
       # {:dep_from_hexpm, "~> 0.3.0"},
